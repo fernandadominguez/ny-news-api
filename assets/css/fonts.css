@@ -1,0 +1,20 @@
+/* Body font */
+@import url("https://use.typekit.net/rca8fys.css");
+
+body {
+    font-family: bely,serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Header font */
+@import url("https://use.typekit.net/rca8fys.css");
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: bely-display,sans-serif;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+
+

@@ -1,0 +1,90 @@
+/* - - - - - - - - - - - - - - - - - - - -
+Nav
+- - - - - - - - - - - - - - - - - - - - */
+header {
+    background: #423e3e;
+}
+
+header nav {
+    margin: 0 auto;
+    max-width: 1000px;
+    background: #423e3e;
+
+}
+
+header h1, header h3{
+    padding: 12px;
+    background: #cecfd3;
+    text-align: center;
+    font-weight: 100;
+}
+
+header h1 {
+    text-transform: uppercase;
+}
+
+header .back-to-categories {
+    padding: .5em 1em;
+    background: #cecfd3;
+    text-transform: none;
+    display: none; /* will show when a category is chosen */
+}
+
+header .back-to-categories:hover {
+    zoom: 1.03;
+}
+
+header nav .container {
+    padding: 2em 0;
+    margin: 0 auto;
+    background: #423e3e;
+    text-align: center;
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header .category {
+    padding: 1em;
+    padding-right: 0;
+    margin: 2em;
+    height: 15.5em;
+    width: 30em;
+    text-align: end;
+    text-transform: uppercase;
+    font-weight: 900;
+    border-radius: 10px;
+    background: #ECEDEE;
+    background-repeat: no-repeat;
+    background-position: 70% 70%;
+    background-size: 500px;
+    box-shadow: 2px 8px 9px 0px rgba(0, 0, 0, 0.14), 11px 11px 6px rgba(0, 0, 0, 0.05);
+}
+
+header li a {
+    margin-top: 1em;
+    padding: 1em;
+    background: rgba(205, 214, 208, 0.63);
+    border-radius: 0 10px 0 10px;
+}
+
+/* Category images */
+#automobiles {background-image: url("../img/auto.jpg");}
+#books {background-image: url("../img/books.jpg");}
+#food {background-image: url("../img/food.jpg");}
+#health {background-image: url("../img/health.jpg");}
+#movies {background-image: url("../img/movies.jpg");}
+#national {background-image: url("../img/national.jpg");}
+#sports {background-image: url("../img/sports.jpg");}
+#sundayreview {background-image: url("../img/sundayreview.jpg");}
+#theater {background-image: url("../img/theater.jpg");}
+
+header li:hover { transform: scale(1.06); }
+
+header li img {
+    height: 10em;
+    margin-bottom: 25px;
+}

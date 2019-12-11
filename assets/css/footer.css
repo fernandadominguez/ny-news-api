@@ -1,0 +1,15 @@
+footer {
+    background: #cecfd3;
+}
+
+footer .container {
+    padding: 30px;
+    height: 150px;
+    margin: 0 auto;
+    background: #cecfd3;
+    text-align: center;
+}
+
+ footer img {
+     margin: 20px;
+}
