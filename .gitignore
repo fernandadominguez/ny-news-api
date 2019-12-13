@@ -1,5 +1,2 @@
 # macOs files
 .DS_Store
-
-# Private API key
-key.js
